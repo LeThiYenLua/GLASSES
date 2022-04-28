@@ -1,0 +1,98 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 10px;
+    border-top: 10px solid black;
+}
+
+.background{
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+#video_background {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.chitiet{
+    border-radius: 0;
+}
+
+.thong-tin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f5f5;
+}
+
+.eye_open,
+.eye_close,
+.ceye_open,
+.ceye_close{
+    position: absolute;
+    right: -25px;
+    top: 45px;
+}
+
+
+footer{
+    background-color: black;
+    color: #f1f1f1;
+    padding: 5% 0;
+}
+
+footer h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+footer p{
+    font-size: 14px;
+    color: gray;
+}
+
+footer a{
+    color: gray;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.backtop{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #bbb8b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 20px;
+    position: fixed;
+    color: black;
+}
+.gioithieu{
+    background-color:#f7f3f2;
+}
+.gioithieu_p{
+    padding: 150px 0px;
+}
+
+.img__brand img{
+    height:auto;
+}
+
+.collection_sp{
+    height: 100vh;
+}
+
