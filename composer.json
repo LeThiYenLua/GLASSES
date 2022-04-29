@@ -12,5 +12,14 @@
 		"files": [
 			"app/helpers.php"
 		]
+	},
+	"authors": [
+	{
+		"name": "Lê Thị Yến Lụa"
+	},
+	{
+		"name": "Lê Hồng Ngọc Trân"
 	}
+	],
+	"mininum-stability": "stable"
 }
