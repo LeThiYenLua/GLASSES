@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$this->e($title)?></title>
+    <title><?= $this->e($title) ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,14 +33,32 @@
                     <?= $this->section("page") ?>
 
                     <div class=" container-fluid footer-admin text-center m-0">
-                        <p class="py-3 m-0">Copyright © Designed By LUXEYE</p>
+                        <p class="py-3 m-0">Copyright © Designed By L.PERFUME</p>
                     </div>
+                </div>
+                <div class="backtop">
+                    <i class="fas fa-chevron-circle-up"></i>
                 </div>
             </div>
         </div>
     </main>
 
-
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop()) {
+                    $('.backtop').fadeIn();
+                } else {
+                    $('.backtop').fadeOut();
+                }
+            });
+            $('.backtop').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 100);
+            });
+        });
+    </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 

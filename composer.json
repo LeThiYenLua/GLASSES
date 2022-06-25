@@ -1,4 +1,6 @@
 {
+	"name": "perfume/mvc",
+	"type":"project",
 	"require": {
 		"bramus/router": "^1.6",
 		"league/plates": "3.*",
@@ -13,13 +15,11 @@
 			"app/helpers.php"
 		]
 	},
+	"license": "MIT",
 	"authors": [
 	{
 		"name": "Lê Thị Yến Lụa"
-	},
-	{
-		"name": "Lê Hồng Ngọc Trân"
-	}
-	],
+	}],
+
 	"mininum-stability": "stable"
 }

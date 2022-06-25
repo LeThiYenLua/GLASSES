@@ -15,6 +15,9 @@ header{
     text-decoration: none;
 }
 
+.content-nd .timhieu{
+    text-decoration: none;
+}
 .col{
     text-align:left;
 } 
@@ -60,17 +63,15 @@ button.signin{
 }
 
 
-
 .nav-item a:hover,
 .nav-item a:active{
     font-weight: 600;
 }
 
 .background{
-    height: 900px;
+    height: 550px;
     overflow: hidden;
     position: relative;
-    margin-bottom: 100px;
 }
 #video_background {
     position: absolute;
@@ -126,6 +127,12 @@ button.signin{
 
 .chance_chanel p{
     font-size: 18px;
+}
+
+.thong-tin{
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .kham_pha{
@@ -195,6 +202,26 @@ button.signin{
     font-weight: 500;
 }
 
+
+.list .img1:hover{
+    border-bottom: 4px solid black;
+}
+.list .img2:hover {
+    border-bottom: 4px solid black;
+}
+.list .img3:hover {
+    border-bottom: 4px solid black;
+}
+.list .img4:hover{
+    border-bottom: 4px solid black;
+}
+.list .img5:hover{
+    border-bottom: 4px solid black;
+}
+.list .img6:hover{
+    border-bottom: 4px solid black;
+}
+
 footer{
     background-color: black;
     color: #f1f1f1;
@@ -232,64 +259,7 @@ footer a{
     position: fixed;
     color: black;
 }
-.container_body-main{
-    background-image:url("../../assets/picture/Home/main.webp");
-    height: 100vh;
-    width: 100%;
-    background-repeat:no-repeat; 
-    background-size: cover;  
-}
-.container_body-child h5, .container_body-child h4 {
-    color:white;
-    font-weight: bold;
-}
-.container_body-child h5{
-    font-size:20px
-}
-.container_body-child h4 {
-    font-size:40px
-}
-.container_body-child p{
-    width:130px;
-    font-size: 13px;
-    margin:auto;
-}
-.container_body-child p a:hover{
-    border-bottom: 1px solid;
-}
 
-.first-child{
-    height:550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 20px;
-
-}
-.first-child p{
-    text-align: center;
-    font-weight:bold;
-    font-size: 20px;
-    margin-bottom:0px;
-    margin-top: 465px;
-}
-.first-child p a:hover{
-    border-bottom:1px solid;
-    transition: 0.2s ease-out;
-}
-.first-row--child{
-    background-color:white;
-    border:1px solid;
-    width: 200px;
-    font-family: 'Cormorant Garamond', serif;
-    margin:auto;
-    position: relative;
-    top:-30%;
-    padding:30px 20px;
-    cursor:pointer;
-}
-.first-row--child a:hover{
-    border-bottom: 1px solid;
-}
-.list{
-    margin:50px 0px;
+.memory{
+    cursor: pointer;
 }

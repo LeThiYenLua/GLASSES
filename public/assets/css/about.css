@@ -8,32 +8,44 @@ header{
     border-top: 10px solid black;
 }
 
-.background{
-    height: 550px;
-    overflow: hidden;
-    position: relative;
-    min-width: 100%;
-    min-height: 100%;
-}
-#video_background {
-    position: absolute;
-    right: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
+
+.logo a{
+    text-decoration: none;
 }
 
-.chitiet{
+button.signin{
     border-radius: 0;
 }
 
-.thong-tin{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f6f5f5;
+.nav-item a:hover,
+.nav-item a:active{
+    font-weight: 600;
 }
 
+.about h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about h1{
+    font-size: 25px;
+}
+
+
+.content-chanel{
+    text-align: justify;
+}
+
+.content-dior{
+    text-align: center;
+}
+
+.content-gucci{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
 .eye_open,
 .eye_close,
 .ceye_open,
@@ -81,18 +93,3 @@ footer a{
     position: fixed;
     color: black;
 }
-.gioithieu{
-    background-color:#f7f3f2;
-}
-.gioithieu_p{
-    padding: 150px 0px;
-}
-
-.img__brand img{
-    height:auto;
-}
-
-.collection_sp{
-    height: 100vh;
-}
-

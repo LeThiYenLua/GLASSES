@@ -19,19 +19,39 @@ header{
 .col-img{
     width: 200px;
 }
+.mua-hang a{
+    text-decoration: none !important;
+    color: #1a1e21;
+}
 
-button.thanh-toan:hover{
+button.mua-hang:hover{
+    background-color: #1a1e21 !important;
+}
+button.mua-hang:hover a{
+    color: white !important;
+}
+button.del:hover{
     background-color: rgb(65, 65, 65) !important;
 }
 
+.chitietdonhang{
+    border-right: 1px solid black;
+}
 @media screen and (max-width: 769px) {
     .free-ship{
         top:168px !important;
+    }
+    .chitietdonhang{
+        border: 0;
     }
 
 }
 
 @media screen and (max-width: 426px) {
+    .chitietdonhang{
+        width: 50%;
+        border: 0;
+    }
     th{
         font-size: 11px;
     }
@@ -42,7 +62,7 @@ button.thanh-toan:hover{
         width: 100px;
     }
     td{
-        font-size: 0.75em;
+        font-size: 0.65em;
     }
     td .btn{
         width: 30px;

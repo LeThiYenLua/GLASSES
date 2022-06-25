@@ -5,10 +5,10 @@
 
     <div class="row san-pham mt-4">
         <div class="thong-ke text-center mb-3">
-            <h4 class="fw-bold">DANH SÁCH KHÁCH HÀNG LUXEYE</h4>
+            <h4 class="fw-bold">DANH SÁCH KHÁCH HÀNG L.PERFUME</h4>
         </div>
         <div class="update mb-4">
-            <button type="button" class="btn btn-outline-dark" id="update">Cập Nhật</button>
+            <button type="button" class="btn btn-dark" id="update" style="border-radius:0">Cập Nhật Khách Hàng</button>
         </div>
         <table class="table table-light table-hover text-center">
             <thead>

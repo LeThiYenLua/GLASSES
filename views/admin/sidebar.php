@@ -1,5 +1,5 @@
 <div class="head pt-4">
-    <h3>LUXEYE</h3>
+    <h3 style="letter-spacing: 3px;">L.PERFUME</h3>
 </div>
 <hr>
 <div class="menu-main mb-4">
@@ -43,6 +43,18 @@
                 <a href="#">Nhóm Khách Hàng</a>
             </div>
         </div>
+        <p class="mb-4 fs-5">
+            <a class="dt" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fas fa-money-bill me-3"></i>Quản Lý Doanh Thu
+            </a><i class="fas fa-angle-down arrow-down-4"></i><i class="fas fa-angle-right arrow-right-4"></i>
+        </p>
+        <div class="collapse" id="collapseExample3">
+            <div class="qldt mb-3">
+                <a href="#">Quản lý doanh thu theo tháng</a>
+                <a href="#">Quản lý doanh thu theo quý</a>
+                <a href="#">Quản lý doanh thu theo năm</a>
+            </div>
+        </div>
     </div>
 
 
@@ -65,6 +77,10 @@
         $('.kh').click(function() {
             $('.arrow-down-3').toggle();
             $('.arrow-right-3').toggle();
+        })
+        $('.dt').click(function() {
+            $('.arrow-down-4').toggle();
+            $('.arrow-right-4').toggle();
         })
     });
 </script>

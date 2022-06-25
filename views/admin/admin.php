@@ -73,68 +73,68 @@
                     <th scope="col">SỐ LƯỢNG ĐẶT HÀNG</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="fw-bold">
                 <tr class="text-warning">
                     <th scope="row">1</th>
-                    <td>KÍNH RÂM HÌNH BẦU DỤC</td>
-                    <td>NAM</td>
+                    <td>BLEU DE CHANEL</td>
+                    <td>CHANEL</td>
                     <td>25K</td>
                 </tr>
 
                 <tr class="text-warning">
                     <th scope="row">2</th>
-                    <td>KÍNH MÁT HÌNH CHỮ NHẬT</td>
-                    <td>NAM</td>
+                    <td>N°5</td>
+                    <td>CHANEL</td>
                     <td>32K</td>
                 </tr>
                 <tr class="text-warning">
                     <th scope="row">3</th>
-                    <td>KÍNH RÂM HÌNH CÁNH BƯỚM</td>
-                    <td>NỮ</td>
+                    <td>POUR MONSIEUR</td>
+                    <td>CHANEL</td>
                     <td>14K</td>
                 </tr>
 
                 <tr class="text-success">
                     <th scope="row">4</th>
-                    <td>KÍNH MÁT HÌNH VUÔNG</td>
-                    <td>NAM</td>
+                    <td>MISS DIOR</td>
+                    <td>DIOR</td>
                     <td>13K</td>
                 </tr>
                 <tr class="text-success">
                     <th scope="row">5</th>
-                    <td>KÍNH RÂM VỎ RÙA</td>
-                    <td>NỮ</td>
+                    <td>DIOR HOMME SPORT</td>
+                    <td>DIOR</td>
                     <td>20K</td>
                 </tr>
                 <tr class="text-success">
                     <th scope="row">6</th>
-                    <td>KÍNH MÁT HÌNH TRÒN</td>
-                    <td>NỮ</td>
+                    <td>J'ADORE</td>
+                    <td>DIOR</td>
                     <td>10K</td>
                 </tr>
                 <tr class="text-success">
                     <th scope="row">7</th>
-                    <td>KÍNH RÂM DÂY XÍCH</td>
-                    <td>NỮ</td>
+                    <td>SAUVAGE</td>
+                    <td>DIOR</td>
                     <td>8K</td>
                 </tr>
 
                 <tr class="text-primary">
                     <th scope="row">8</th>
-                    <td>KÍNH MÁT CAO CÂP</td>
-                    <td>NAM</td>
+                    <td>Gucci Guilty Oud</td>
+                    <td>GUCCI</td>
                     <td>30K</td>
                 </tr>
                 <tr class="text-primary">
                     <th scope="row">9</th>
-                    <td>KÍNH RÂM MIX MÀU</td>
-                    <td>NỮ</td>
+                    <td>The Voice of the Snake</td>
+                    <td>GUCCI</td>
                     <td>16K</td>
                 </tr>
                 <tr class="text-primary">
                     <th scope="row">10</th>
-                    <td>KÍNH MÁT HÌNH BẦU DỤC</td>
-                    <td>NỮ</td>
+                    <td>Gucci Bloom</td>
+                    <td>GUCCI</td>
                     <td>12K</td>
                 </tr>
 

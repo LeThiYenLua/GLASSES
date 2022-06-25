@@ -12,7 +12,7 @@ body{
     color: white;
 }
 
-.qlsp a, .qldh a, .qlkh a{
+.qlsp a, .qldh a, .qlkh a, .qldt a{
     display: flex;
     margin-left: 10%;
     padding-bottom: 5%;
@@ -20,7 +20,8 @@ body{
 
 .qlsp a:hover,
 .qldh a:hover, 
-.qlkh a:hover{
+.qlkh a:hover,
+.qldt a:hover{
     color: grey;
 }
 
@@ -28,20 +29,21 @@ body{
     margin-right: 15%;
 }
 .dh{
-    margin-right: 16%;
+    margin-right: 17%;
 }
 .kh{
     margin-right: 9%;
 }
-.arrow-right-1{
+.dt{
+    margin-right: 11%;
+}
+.arrow-right-1,
+.arrow-right-2,
+.arrow-right-3,
+.arrow-right-4{
     display: none;
 }
-.arrow-right-2{
-    display: none;
-}
-.arrow-right-3{
-    display: none;
-}
+
 
 .navbar{
     font-size: 25px;
@@ -58,6 +60,33 @@ body{
 
 .setting{
     font-size: 20px;
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+    max-width: 650px;
+    margin: 1.75rem auto;
+    }
+}
+#edit i{
+    color: black;
+}
+#edit:hover i{
+    color: white;
+}
+.backtop{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #bbb8b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 20px;
+    position: fixed;
+    color: black;
 }
 .icon-menu i{
     padding-right: 15px;

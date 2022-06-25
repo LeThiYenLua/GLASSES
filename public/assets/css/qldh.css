@@ -28,14 +28,16 @@
 .kh{
     margin-right: 9%;
 }
-.arrow-right-1{
+.arrow-right-1,
+.arrow-right-2,
+.arrow-right-3,
+.yes
+{
     display: none;
 }
-.arrow-right-2{
-    display: none;
-}
-.arrow-right-3{
-    display: none;
+
+.no, .yes, .edit{
+    cursor: pointer;
 }
 
 .navbar{

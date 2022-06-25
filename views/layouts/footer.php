@@ -2,12 +2,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-3">
-                    <h3 class="mb-5">LUXEYE</h3>
+                    <h3 class="mb-5" style=" letter-spacing: 3px;">L.PERFUME</h3>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
-                    <h5>Khám phá</h5>
-                    <p>Thiết kế đơn giản</p>
-                    <p>Hệ thống cửa hàng</p>
+                    <h5>Thương hiệu</h5>
+                    <p>CHANEL</p>
+                    <p>DIOR</p>
+                    <p>GUCCI</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <h5>Dịch vụ tại cửa hàng</h5>

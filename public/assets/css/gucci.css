@@ -1,0 +1,113 @@
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+header{
+    background-color: white;
+    margin-bottom: 10px;
+    border-top: 10px solid black;
+}
+
+.logo p{
+    margin-left: 20px;
+}
+.logo a{
+    text-decoration: none;
+}
+
+.content-bag{
+    background-color: rgb(192, 94, 94);
+}
+
+.content-bag .account,
+button.signin{
+    border-radius: 0;
+}
+
+.nav-item a:hover,
+.nav-item a:active{
+    font-weight: 600;
+}
+
+.channel-banner{
+    height: 70vh;
+    background-image: url(/assets/picture/GUCCI/gucci_banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 100vw; */
+}
+.group{
+    position: relative;
+    top: 40%;
+    transform: translate(0,-300%);
+    height: 100px;
+}
+
+button.shop-men,
+button.shop-women{
+    position: relative;
+    top: 50%;
+    border: 1px solid rgb(224, 219, 219);
+    border-radius: 0;
+    width: 200px;
+    height: 50px;
+    box-shadow: 10px 5px 10px rgb(66, 64, 64);
+}
+
+.chi_tiet:hover,
+.chi_tiet:active{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+.chi_tiet{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.eye_open,
+.eye_close{
+    position: absolute;
+    right: -25px;
+    top: 45px;
+}
+
+footer{
+    background-color: black;
+    color: #f1f1f1;
+    padding: 5% 0;
+}
+
+footer h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+footer p{
+    font-size: 14px;
+    color: gray;
+}
+
+footer a{
+    color: gray;
+    padding-right: 2%;
+    font-size: 20px;
+}
+
+.backtop{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #bbb8b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 20px;
+    position: fixed;
+    color: black;
+}

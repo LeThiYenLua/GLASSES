@@ -4,6 +4,8 @@ namespace App\Controllers\Auth;
 
 use App\Models\TaiKhoan;
 use App\Controllers\Controller;
+use App\Models\DetailCart;
+use App\Models\GioHang;
 use App\SessionGuard as Guard;
 
 class LoginController extends Controller
@@ -23,8 +25,12 @@ class LoginController extends Controller
 		$user = TaiKhoan::where('email', $user_credentials['email'])->first();
 		if (!$user) {
 			// Người dùng không tồn tại...
-			$errors['email'] = 'Invalid email';
+			$errors['email'] = 'Không Tồn Tại Email Này @@';
 		} else if (Guard::login($user, $user_credentials)) {
+			$magh = GioHang::join('nguoiDung','nguoiDung.ma_nguoi_dung','=','gioHang.ma_nguoi_dung')->where('email',Guard::user()->email)->first()->ma_gio_hang;
+		$cart = DetailCart::join('sanPham','sanPham.ma_san_pham','=','chitietgiohang.ma_san_pham')->where('ma_gio_hang',$magh)->first();
+		if(isset($cart))
+			$_SESSION['cart'][]= $cart;
 			if($user_credentials['email'] == 'admin@gmail.com'){
 				redirect('/admin');
 			}
@@ -33,7 +39,7 @@ class LoginController extends Controller
 		} 
 		else {
 			// Sai mật khẩu...
-			$errors['password'] = 'Invalid password';
+			$errors['password'] = 'Sai Mật Khẩu @@';
 		}
 		$this->sendPage('/auth/login', ['errors' => $errors]);
 	}

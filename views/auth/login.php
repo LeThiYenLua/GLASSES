@@ -6,18 +6,18 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-8 col-lg-4">
-                <p class="text-center mb-4 content_signin">My LUXEYE account</p>
-                <button type="button" class="btn btn-dark col-12 btn_create py-2 mb-4"><a href="/register">Create my account</a></button>
+                <p class="text-center mb-4 content_signin fw-bold">Tài khoản L.Perfume</p>
+                <button type="button" class="btn btn-dark col-12 btn_create py-2 mb-4"><a href="/register">TẠO TÀI KHOẢN</a></button>
                 <form id="signinForm" method="post" class="form-horizontal" action="/login">
                     <button class="btn btn-light mb-4 col-12 btn_gg">
                         <img src="assets/picture/Google_logo.webp" alt="" style="height: 40px;">
-                        <a href="https://www.google.com/">CONTINUE WITH GOOGLE</a>
+                        <a href="https://www.google.com/">TIẾP TỤC VỚI GOOGLE</a>
                     </button>
                     <button class="btn btn-light mb-4 col-12 btn_fb">
                         <img src="assets/picture/facebook_logo.webp" alt="" style="height: 40px;">
-                        <a href="https://www.facebookcom/">CONTINUE WITH FACEBOOK</a>
+                        <a href="https://www.facebookcom/">TIẾP TỤC VỚI FACEBOOK</a>
                     </button>
-                    <p class="text-center" style="font-size: 18px;">OR</p>
+                    <p class="text-center" style="font-size: 18px;">HOẶC</p>
                     <?php
                     if(isset($errors)){
                         foreach ($errors as $err) {
@@ -29,20 +29,19 @@
 
                     <div class="form-group mb-4">
                         <label for="email" class="form-label">Email*:</label>
-                        <input type="text" class="form-control py-2" id="email" placeholder="ENTER EMAIL" name="email" required>
+                        <input type="text" class="form-control py-2" id="email" placeholder="NHẬP EMAIL" name="email" required>
                     </div>
                     <div class="form-group mb-4 passw">
-                        <label for="pwd" class="form-label">Password*:</label>
-                        <input type="password" class="form-control py-2" id="password" placeholder="ENTER PASSWORD" name="password" required>
+                        <label for="pwd" class="form-label">Mật Khẩu*:</label>
+                        <input type="password" class="form-control py-2" id="password" placeholder="NHẬP MẬT KHẨU" name="password" required>
                         <i class="fas fa-eye eye_open"></i>
                         <i class="fas fa-eye-slash eye_close"></i>
                     </div>
                     <div class="form-group form-check mb-4">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember" value="remember_me"> Remember me
-                        </label>
+                            <input class="form-check-input" type="checkbox" name="remember" id="remember" value="remember_me"> Ghi Nhớ Tôi
                     </div>
-                    <button type="submit" class="btn btn-dark col-12 btn_submit py-2 mb-4">Sign in</button>
+                    <button type="submit" class="btn btn-dark col-12 btn_submit py-2 mb-4">Đăng Nhập</button>
                 </form>
             </div>
         </div>
